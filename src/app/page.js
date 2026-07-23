@@ -17,6 +17,8 @@ import {
   Code2,
   CheckCircle2,
   MapPin,
+  Globe,
+  Palette,
 } from "lucide-react";
 
 export default function Portfolio() {
@@ -88,59 +90,62 @@ export default function Portfolio() {
 
 const projects = [
   {
-      date: "2024",
-      title: "My Garage Outlet",
-      description:
-        "A community-driven mobile platform designed to help users discover, host, and share local garage sales. Connects thrifters, bargain hunters, and hosts in one social marketplace to locate unique local finds or list items for sale.",
-      tags: ["UX Research", "Wireframing", "Prototyping", "User Flows"],
-      image: "/garage2.png",
-      imageBg:
-        "bg-gradient-to-br from-amber-100/60 via-stone-200/50 to-orange-100/40",
-      type: "Community Platform",
-      metrics: "Conversion-Focused UX",
-      link: "https://www.figma.com/proto/dT5yx8LeJ8wR6n0B2GUjzg/Garage-Outlet?node-id=1-2&t=mpzOMH2W7szLC6OH-1", // <--- Add your project-specific URL here
-    },
-    {
-      date: "2026",
-      title: "Carter Boating",
-      description:
-        "Carter Boating simplifies the boat rental process by bridging the gap between adventure-seeking renters and boat owners. The goal was to design a clean, trustworthy landing page and mobile app interface that drives app downloads, streamlines vessel discovery, and delivers a frictionless booking flow.",
-      tags: ["Next.js", "React.js", "Tailwind CSS", "UI/UX Design"],
-      image: "/carter.png",
-      imageBg:
-        "bg-gradient-to-br from-slate-200/80 via-stone-200/50 to-emerald-100/40",
-      type: "Web Application",
-      metrics: "End-to-End Delivery",
-      link: "https://www.figma.com/proto/d1B6sdxuFL6nE6NsysxO5r/Carter-Boating?node-id=0-1&t=DvlVOMlRj3jl1aWh-1", // <--- Add your project-specific URL here
-    },
-    {
-      date: "2025",
-      title: "Buzzhub - Landing Page",
-      description:
-        "Buzzhub is a modern dispensary marketplace platform designed to bridge legal producers, retailers, and consumers through a seamless mobile shopping experience and web landing page. The design uses vibrant greenery aesthetics, clean card layouts, and strong app conversion funneling",
-      tags: ["Figma", "React.js", "Tailwind CSS", "Design Systems"],
-      image: "/buzzhubapp.png",
-      imageBg:
-        "bg-gradient-to-br from-emerald-100/60 via-stone-200/50 to-teal-100/40",
-      type: "Design & Code System",
-      metrics: "Google Certified UX Architecture",
-      link: "https://www.figma.com/proto/h9OVkII2HlroO3iH6CHUzB/Buzzhub---Landing-Page?node-id=0-1&t=KqrJ2pxq4zdKus4a-1", // <--- Add your project-specific URL here
-    },
-    {
-      date: "2024",
-      title: "Family Physics",
-      description:
-        "This is a high-energy fitness and personal training app landing page designed to connect users with expert coaches, structured workout programs, and training services.It showcases the mobile app's core features, highlights trainer credentials and community stats, and drives user conversions through a contact form and app download call-to-actions (Google Play & App Store).",
-      tags: ["UX Research", "Wireframing", "Prototyping", "User Flows"],
-      image: "/family.png",
-      imageBg:
-        "bg-gradient-to-br from-amber-100/60 via-stone-200/50 to-orange-100/40",
-      type: "Community Platform",
-      metrics: "Conversion-Focused UX",
-      link: "https://www.figma.com/proto/eI2caCQDcUxVZj0fP7nfgo/Family-Physics?node-id=0-1&t=cyKb9rwwUXSXiDDr-1 ", // <--- Add your project-specific URL here
-    },
-   
-  ];
+    date: "2024",
+    title: "My Garage Outlet",
+    description:
+      "A community-driven mobile platform designed to help users discover, host, and share local garage sales. Connects thrifters, bargain hunters, and hosts in one social marketplace to locate unique local finds or list items for sale.",
+    tags: ["UX Research", "Wireframing", "Prototyping", "User Flows"],
+    image: "/garage2.png",
+    imageBg:
+      "bg-gradient-to-br from-amber-100/60 via-stone-200/50 to-orange-100/40",
+    type: "Community Platform",
+    metrics: "Conversion-Focused UX",
+    figmaLink: "https://www.figma.com/proto/dT5yx8LeJ8wR6n0B2GUjzg/Garage-Outlet?node-id=1-2&t=mpzOMH2W7szLC6OH-1",
+    liveLink: "https://mygarageoutlet-landing.vercel.app", // <--- Add live site link here
+  },
+  {
+    date: "2026",
+    title: "Carter Boating",
+    description:
+      "Carter Boating simplifies the boat rental process by bridging the gap between adventure-seeking renters and boat owners. The goal was to design a clean, trustworthy landing page and mobile app interface that drives app downloads, streamlines vessel discovery, and delivers a frictionless booking flow.",
+    tags: ["Next.js", "React.js", "Tailwind CSS", "UI/UX Design"],
+    image: "/carter.png",
+    imageBg:
+      "bg-gradient-to-br from-slate-200/80 via-stone-200/50 to-emerald-100/40",
+    type: "Web Application",
+    metrics: "End-to-End Delivery",
+    figmaLink: "https://www.figma.com/proto/d1B6sdxuFL6nE6NsysxO5r/Carter-Boating?node-id=0-1&t=DvlVOMlRj3jl1aWh-1",
+    liveLink: "https://carterboating.vercel.app", // <--- Add live site link here
+  },
+  {
+    date: "2025",
+    title: "Buzzhub - Landing Page",
+    description:
+      "Buzzhub is a modern dispensary marketplace platform designed to bridge legal producers, retailers, and consumers through a seamless mobile shopping experience and web landing page. The design uses vibrant greenery aesthetics, clean card layouts, and strong app conversion funneling",
+    tags: ["Figma", "React.js", "Tailwind CSS", "Design Systems"],
+    image: "/buzzhubapp.png",
+    imageBg:
+      "bg-gradient-to-br from-emerald-100/60 via-stone-200/50 to-teal-100/40",
+    type: "Design & Code System",
+    metrics: "Google Certified UX Architecture",
+    figmaLink: "https://www.figma.com/proto/h9OVkII2HlroO3iH6CHUzB/Buzzhub---Landing-Page?node-id=0-1&t=KqrJ2pxq4zdKus4a-1",
+    liveLink: "https://buzzhub-landing.vercel.app", // <--- Add live site link here
+  },
+  {
+    date: "2024",
+    title: "Family Physics",
+    description:
+      "This is a high-energy fitness and personal training app landing page designed to connect users with expert coaches, structured workout programs, and training services.It showcases the mobile app's core features, highlights trainer credentials and community stats, and drives user conversions through a contact form and app download call-to-actions (Google Play & App Store).",
+    tags: ["UX Research", "Wireframing", "Prototyping", "User Flows"],
+    image: "/family.png",
+    imageBg:
+      "bg-gradient-to-br from-amber-100/60 via-stone-200/50 to-orange-100/40",
+    type: "Community Platform",
+    metrics: "Conversion-Focused UX",
+    figmaLink: "https://www.figma.com/proto/eI2caCQDcUxVZj0fP7nfgo/Family-Physics?node-id=0-1&t=cyKb9rwwUXSXiDDr-1",
+    liveLink: null, // <--- Add live site link here
+  },
+];
   const experience = [
     {
       role: "UI/UX Designer & Web Developer",
@@ -403,7 +408,7 @@ const projects = [
       >
         {/* Project Image Container */}
         <div
-          className={`w-full h-72  rounded-xl ${project.imageBg} border border-stone-200 flex items-center justify-center relative overflow-hidden  transition-transform duration-300`}
+          className={`w-full h-72 rounded-xl ${project.imageBg} border border-stone-200 flex items-center justify-center relative overflow-hidden transition-transform duration-300`}
         >
           {project.image ? (
             <img
@@ -412,51 +417,50 @@ const projects = [
               className="w-full h-full object-cover object-center"
             />
           ) : null}
-
-          {/* Type Badge Overlay */}
-          {/* <span className="absolute text-xs font-mono text-stone-600 bg-white/90 border border-stone-200 px-3 py-1 rounded-lg backdrop-blur-sm shadow-2xs z-10">
-            [{project.type}]
-          </span> */}
         </div>
 
         <div className="space-y-3 flex-1 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between text-xs text-stone-400 font-mono mb-1">
-              {/* <span>{project.date}</span> */}
-              {/* <span className="text-emerald-600 font-semibold">
-                {project.metrics}
-              </span> */}
+              {/* Optional metrics/date */}
             </div>
             <h3 className="text-lg font-bold text-stone-900 group-hover:text-emerald-600 transition-colors">
               {project.title}
             </h3>
-            <p className="text-stone-600 text-xs leading-relaxed mt-1 ">
+            <p className="text-stone-600 text-xs leading-relaxed mt-1">
               {project.description}
             </p>
           </div>
 
-          <div className="pt-2">
-            {/* <div className="flex flex-wrap gap-1.5 mb-3">
-              {project.tags.map((tag, tIdx) => (
-                <span
-                  key={tIdx}
-                  className="px-2.5 py-1 rounded-md bg-stone-200/60 text-stone-700 text-[10px] font-mono"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div> */}
+     <div className="pt-2 flex items-center gap-2">
+  {/* Figma Button - Secondary Style */}
+  {project.figmaLink && (
+    <a
+      href={project.figmaLink}
+      target="_blank"
+      rel="noreferrer"
+      className="flex-1 py-2.5 px-3 rounded-xl  bg-stone-900 hover:bg-emerald-700 text-white text-xs font-semibold flex items-center justify-center gap-1.5 transition-all border border-stone-300/50 shadow-2xs group/btn"
+    >
+      <Palette className="w-3.5 h-3.5 text-white group-hover/btn:scale-110 transition-transform" />
+      <span>Figma</span>
+      <ArrowUpRight className="w-3.5 h-3.5 text-white group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+    </a>
+  )}
 
-            <a
-                            href={project.link}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="w-full py-2.5 px-4 rounded-xl bg-stone-900 hover:bg-stone-800 text-white text-xs font-bold flex items-center justify-between transition-all"
-                          >
-                            <span>View Project</span>
-                            <ArrowUpRight className="w-4 h-4 text-emerald-400" />
-                          </a>
-          </div>
+  {/* Live Site Button - Primary Style */}
+  {project.liveLink && (
+    <a
+  href={project.liveLink}
+  target="_blank"
+  rel="noreferrer"
+  className="flex-1 py-2.5 px-3 rounded-xl bg-emerald-50/80 hover:bg-emerald-600 border border-emerald-200/60 hover:border-emerald-600 text-emerald-950 hover:text-white text-xs font-semibold flex items-center justify-center gap-1.5 transition-all duration-200 shadow-2xs hover:shadow-md hover:shadow-emerald-600/20 group/btn"
+>
+  <Globe className="w-3.5 h-3.5 text-emerald-600 group-hover/btn:text-white transition-colors" />
+  <span>Live Site</span>
+  <ArrowUpRight className="w-3.5 h-3.5 text-emerald-600/70 group-hover/btn:text-white group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-all" />
+</a>
+  )}
+</div>
         </div>
       </div>
     ))}
