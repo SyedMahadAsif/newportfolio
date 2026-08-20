@@ -145,6 +145,57 @@ const projects = [
     figmaLink: "https://www.figma.com/proto/eI2caCQDcUxVZj0fP7nfgo/Family-Physics?node-id=0-1&t=cyKb9rwwUXSXiDDr-1",
     liveLink: null, // <--- Add live site link here
   },
+  {
+    date: "2024",
+    title: "TopX - Mobile App",
+    description:
+      "A dynamic basketball community hub and social platform connecting fans through live game chats, curated topic pages, and interactive media feeds. Designed with a high-energy aesthetic to drive engagement, real-time discussions, and multimedia sharing.",
+    tags: ["Mobile UI/UX", "Community Platform", "Social Media", "User Flows"],
+    image: "/topx.jfif",
+    imageBg:
+      "bg-gradient-to-br from-orange-100/70 via-stone-200/50 to-blue-100/40",
+    type: "Mobile Application",
+    metrics: "Community Engagement & Real-Time UX",
+    figmaLink: "https://www.figma.com/design/cSqdz9zNRZIT3ocSkpVf15/Top-X---Mobile-App?node-id=0-1&t=KrCImvAM7RgGrUgb-1", // Add Figma link
+    liveLink: null,
+  },
+  {
+    date: "2024",
+    title: "Frame the World - Web and Mobile App",
+    description:
+      "A visually rich travel curation and photography gallery interface centered around 'Travel Stories.' Features a responsive masonry-style grid layout, personalized feeds ('For You', 'Featured', 'Frames'), and clean glassmorphic UI elements tailored for content discovery.",
+    tags: ["UI/UX Design", "Web Design", "Design Systems", "Visual Architecture"],
+    image: "/frametheworld.png",
+    imageBg:
+      "bg-gradient-to-br from-sky-100/60 via-slate-200/50 to-indigo-100/40",
+    type: "Web Application",
+    metrics: "Content Discovery & Grid UX",
+    figmaLink: "https://www.figma.com/design/OIvSm71TqNMjC5fm7StwxO/Frame-the-world?t=KrCImvAM7RgGrUgb-1", // Add Figma link
+    liveLink: "https://app.frametheworld.org/login",
+  },
+  {
+    date: "2024",
+    title: "VYBEX - Social Mobile App",
+    description:
+      "A dynamic social platform designed for real-time connection and content sharing. It features personalized user feeds, robust profile management, and seamlessly integrated 'Go Live' functionality, all presented through a sleek, modern, and engaging user interface focused on community interaction.",
+    tags: ["UI/UX Design", "Web Application", "Social Media", "Live Streaming"],
+    image: "/vybex.jfif",
+    imageBg: "bg-gradient-to-br from-purple-900/80 via-black to-blue-900/80",
+    type: "Web Application",
+    metrics: "User Engagement & Real-time Interaction",
+    figmaLink: "https://www.figma.com/design/il7qiwvM8gca8gZnBiMocf/Vybex---WebApp?node-id=0-1&t=FpknYvipMKCzrYZy-1",
+  },{
+    date: "2024",
+    title: "CodeClean - Service Marketplace",
+    description:
+      "A comprehensive web application designed as a marketplace for finding and booking trusted cleaning professionals. It features a robust search interface with detailed profile grids, user-friendly forms, and interactive social elements, all unified by a clean, blue-toned aesthetic.",
+    tags: ["UI/UX Design", "Web Application", "Marketplace", "Service Platform"],
+    image: "/codeclean.png",
+    imageBg: "bg-gradient-to-br from-blue-50/70 via-blue-100/60 to-blue-200/50",
+    type: "Web Application",
+    metrics: "Service Discovery & Booking Efficiency",
+    figmaLink: "https://www.figma.com/design/jxeZJgMcCLXSyLvVFTnY8g/Code-Clean?node-id=0-1&t=zCraktSIOybHZpyI-1",
+  },
 ];
   const experience = [
     {
